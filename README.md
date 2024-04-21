@@ -12,7 +12,7 @@ spawn(function()
     end
 end)
 getgenv().Setting = {
-    ["Team"] = "Pirates", --Marines,Pirates
+    ["Team"] = "Marines", --Marines,Pirates
     ["Webhook"] = {
         ["Enabled"] = true,
         ["Url Webhook"] = "", --Your Url
@@ -36,8 +36,8 @@ getgenv().Setting = {
     ["Race V4"] = {
         ["Enable"] = true,
     },
-    ["Invisible"] = false,
-    ["White Screen"] = false,
+    ["Invisible"] = true,
+    ["White Screen"] = true,
     ["GunMethod"] = false, --Support Only Melee And Gun,Not Invisible, Turn On Enabled Gun and Melee Please
     ["SpamSkill"] = false, -- Will use all skills as fast as possbile ignore holding skills
     ["Weapons"] = {
@@ -61,7 +61,7 @@ getgenv().Setting = {
             },
         },
         ["Blox Fruit"] = {
-            ["Enable"] = false,
+            ["Enable"] = true,
             ["Delay"] = 1,
             ["Skills"] = {
                 ["Z"] = {
@@ -88,7 +88,7 @@ getgenv().Setting = {
             },
         },
         ["Gun"] = {
-            ["Enable"] = false,
+            ["Enable"] = true,
             ["Delay"] = 2,
             ["Skills"] = {
                 ["Z"] = {
